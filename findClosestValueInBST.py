@@ -1,7 +1,6 @@
 def findClosestValueInBST(tree, target):
     return findClosestValueInBSTHelper(tree, target, tree.value)
     
-    
 def findClosestValueInBSTHelper(tree, target, closest):
     if tree is None:
         return closest
